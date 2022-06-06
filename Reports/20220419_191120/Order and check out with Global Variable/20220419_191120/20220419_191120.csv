@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out with Global Variable,Chrome 78.0.3904.70,,,2022-04-19 19:11:31,2022-04-19 19:15:15,3m - 44.201s,PASSED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,Chrome 78.0.3904.70,,,2022-04-19 19:11:31,2022-04-19 19:13:26,1m - 55.026s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 78.0.3904.70,,,2022-04-19 19:11:32,2022-04-19 19:11:32,0.020s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 78.0.3904.70,,,2022-04-19 19:11:32,2022-04-19 19:12:02,30.059s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 78.0.3904.70,,,2022-04-19 19:12:02,2022-04-19 19:12:03,0.953s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 78.0.3904.70,,,2022-04-19 19:12:03,2022-04-19 19:12:06,3.005s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),Chrome 78.0.3904.70,,,2022-04-19 19:12:06,2022-04-19 19:12:19,12.906s,PASSED
+"sample.Checkout.CheckoutShop(firstName, lastName, companyName, country, address, city, postCode, Phone)",Chrome 78.0.3904.70,,,2022-04-19 19:12:19,2022-04-19 19:13:17,57.750s,PASSED
+sample.Login.logoutFromApplication(),Chrome 78.0.3904.70,,,2022-04-19 19:13:17,2022-04-19 19:13:25,7.836s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2022-04-19 19:13:25,2022-04-19 19:13:26,1.417s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 78.0.3904.70,,,2022-04-19 19:13:26,2022-04-19 19:13:26,0.016s,PASSED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product using coupon,Chrome 78.0.3904.70,,,2022-04-19 19:13:26,2022-04-19 19:15:15,1m - 48.680s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 78.0.3904.70,,,2022-04-19 19:13:26,2022-04-19 19:13:26,0.003s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 78.0.3904.70,,,2022-04-19 19:13:26,2022-04-19 19:13:46,19.933s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 78.0.3904.70,,,2022-04-19 19:13:46,2022-04-19 19:13:47,0.821s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 78.0.3904.70,,,2022-04-19 19:13:47,2022-04-19 19:13:50,2.831s,PASSED
+sample.Shop.applyCouponAndAddToCartWithGlobalVariable(),Chrome 78.0.3904.70,,,2022-04-19 19:13:50,2022-04-19 19:14:10,20.145s,PASSED
+sample.Checkout.CheckoutShopWithGlobalVariable(),Chrome 78.0.3904.70,,,2022-04-19 19:14:10,2022-04-19 19:15:06,55.667s,PASSED
+sample.Login.logoutFromApplication(),Chrome 78.0.3904.70,,,2022-04-19 19:15:06,2022-04-19 19:15:13,7.340s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2022-04-19 19:15:13,2022-04-19 19:15:15,1.693s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 78.0.3904.70,,,2022-04-19 19:15:15,2022-04-19 19:15:15,0.007s,PASSED
